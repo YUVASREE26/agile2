@@ -6,6 +6,8 @@ git commit -m "initial code"
 git push origin main
 git status
 git branch
+git push -u origin main
+git pull origin main
 $maven pipeline
 pipeline {     agent any     stages {
         stage('Checkout Code') {             steps {
